@@ -7,8 +7,8 @@ vo(function* () {
     .goto('http://facebook.com')
      .type('input[name="email"]', '')
      .wait(1000)
-    .type('input[name="email"]', 'tha_chookes@hotmail.com')
-    .type('input[name="pass"]', '1129700071976')
+    .type('input[name="email"]', 'email')
+    .type('input[name="pass"]', 'pass')
     
     .click('input[type="submit"]')
     .wait(1000)
